@@ -1,0 +1,27 @@
+body {
+    font-family: Montserrat, sans-serif;
+    background-color: #001219;
+    color: #00f5d4;
+}
+
+h1 {
+    text-align: center;
+    color: #00f5d4;
+}
+
+img {
+    border-radius: 50px 100px;
+}
+
+p {
+    text-align: center;
+}
+
+a{
+    text-align: center;
+    background-color: #00f5d4;
+    color: white;
+    text-align: center;
+    padding: 12px 20px;
+    border-radius: 50px 100px;
+}
