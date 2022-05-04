@@ -9,14 +9,13 @@ body {
     sans-serif;
     color: #00f5d4;
     background-image: url('/pexels-asad-photo-maldives-3293148.jpg');
-    display: flex;
-    flex-direction: column;
 }
 
 img {
     width: 350px;
     border-radius: 100px;
     box-shadow: inset 0 0 1em gold, 0 0 1em #00f5d4;
+    margin: 10px;
 }
 
 div {
@@ -34,12 +33,11 @@ p {
 }
 
 h3 {
-    display: flex;
+    margin: 20px;
 }
 
-footer div {
+a {
     color: #00f5d4;
     text-align: center;
-    padding: 20px;
-    text-decoration: none;
+    list-style: none;
 }
