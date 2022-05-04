@@ -1,27 +1,45 @@
-body {
-    font-family: Montserrat, sans-serif;
-    background-color: #001219;
-    color: #00f5d4;
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h1 {
-    text-align: center;
+body {
+    font-family: Montserrat, 
+    sans-serif;
     color: #00f5d4;
+    background-image: url('/pexels-asad-photo-maldives-3293148.jpg');
+    display: flex;
+    flex-direction: column;
 }
 
 img {
-    border-radius: 50px 100px;
+    width: 350px;
+    border-radius: 100px;
+    box-shadow: inset 0 0 1em gold, 0 0 1em #00f5d4;
+}
+
+div {
+    text-align: center;
+}
+
+h1 {
+    text-align:center ;
+    padding: 20px;
+    
 }
 
 p {
-    text-align: center;
+    margin: 15px;
 }
 
-a{
+h3 {
+    display: flex;
+}
+
+footer div {
+    color: #00f5d4;
     text-align: center;
-    background-color: #00f5d4;
-    color: white;
-    text-align: center;
-    padding: 12px 20px;
-    border-radius: 50px 100px;
+    padding: 20px;
+    text-decoration: none;
 }
